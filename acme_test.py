@@ -16,12 +16,13 @@ class AcmeProductTests(unittest.TestCase):
         self.assertEqual(prod.weight, 20)
     def test_stealability(self):
         prod = Product('Test Product')
-        assert (prod.stealability==('Kinda stealable.')|prod.stealability==('Not so stealable...')|prod.stealability==('Very stealable'))
+        assert prod.stealability==('Kinda stealable.')
 
 class AcmeReportTests(unittest.TestCase):
     def test_default_num_products(self):
         prods=generate_products()
-
-
+        self.assertEqual(self.prods.size(),30)
+    #def test_legal_names(self):
+        
 if __name__ == '__main__':
     unittest.main()
