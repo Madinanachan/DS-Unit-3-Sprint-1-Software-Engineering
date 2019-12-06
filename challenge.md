@@ -261,12 +261,17 @@ career here, you'll have to answer the following:
 
 - What, in your opinion, is an important part of code reviews? That is, what is
   something you pay attention to when you review code, and that you appreciate
-  when others do the same for your code?
+  when others do the same for your code? 
+
+Reviewing code is important for brevity and for stream-lined file sizes. Coding done uniformly and with 
+annotations is important for communication amongst developers, and small file sizes are needed for speed. 
+
 - We have an awful lot of computers here, and it gets pretty confusing with
   slightly different things running on all of them. How could containers help us
   improve this situation?
+  
+Containers like Docker help rid us of several cross-platform issues that may arrise and ensures easy work while using dev / staging / production servers. This speeds up development and provides application encapsulation. 
 
-Answer both of these questions (baseline ~5 sentences) here in text.
 
 ### Part 8 - Turn it in!
 
